@@ -10,6 +10,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       title: {
+        allowNull: false,
         type: Sequelize.TEXT
       },
       img: {
@@ -19,6 +20,7 @@ module.exports = {
         type: Sequelize.TEXT
       },
       song: {
+        allowNull: false,
         type: Sequelize.TEXT
       },
       createdAt: {

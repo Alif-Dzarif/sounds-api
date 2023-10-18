@@ -10,12 +10,14 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       username: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       imgProfile: {
         type: Sequelize.TEXT
       },
       password: {
+        allowNull: false,
         type: Sequelize.STRING
       },
       createdAt: {
